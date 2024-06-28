@@ -1,10 +1,12 @@
 <script>
 	import Header from './Header/Header.svelte';
+	import Intro from './Intro/Intro.svelte';
 	export let content;
 </script>
 
 <div class="intro">
 	<Header content={content.header} />
+	<Intro content={content.intro} />
 </div>
 
 <style>

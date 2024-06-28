@@ -6,7 +6,7 @@
 
 <header>
 	<section>
-		<img src={logo} alt="" width="270" />
+		<img class="header-logo" src={logo} alt="Olymp Trade logotype" />
 		<a class="button" href={links.signUp}>
 			{content.signUp}
 		</a>
@@ -18,6 +18,27 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		padding: 40px 0;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.header-logo {
+		width: 270px;
+	}
+
+	@media screen and (max-width: 1280px) {
+		.header-logo {
+			width: 200px;
+		}
+
+		section {
+			padding-top: 24px;
+			padding-bottom: 24px;
+		}
+	}
+
+	@media screen and (max-width: 768px) {
+		.button {
+			display: none;
+		}
 	}
 </style>

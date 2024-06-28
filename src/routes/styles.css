@@ -37,7 +37,11 @@ button {
     --btn-blue: #0094ff;
     --main-green: #53b653;
     --main-font: Helvetica, 'Roboto', Arial, sans-serif;
+    --roboto-font: 'Roboto', Arial, sans-serif;
     --font-main-color: #000;
+    --stars-bgr: #FFCE50;
+
+    --green: red;
 }
 
 body {
@@ -52,9 +56,18 @@ body {
 }
 
 section {
-    max-width: 1280px;
+    max-width: 1360px;
     margin: 0 auto;
-    width: 96%;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@media screen and (max-width: 960px) {
+    section {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
 }
 
 .button {
@@ -72,4 +85,10 @@ section {
 .button:hover {
     background-color: var(--main-green);
     transition: background-color ease-out 0.2s;
+}
+
+@media screen and (max-width: 1024px) {
+    .button {
+        padding: 15px 35px;
+    }
 }

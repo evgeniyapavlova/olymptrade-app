@@ -9,6 +9,9 @@
 	import Content5HowToInstall from './Content/Content5HowToInstall.svelte';
 	import Content6SignUp from './Content/Content6SignUp.svelte';
 	import Content6Reviews from './Content/Content6Reviews.svelte';
+	import Content7WrappingUp from './Content/Content7WrappingUp.svelte';
+	import Content8Faq from './Content/Content8FAQ.svelte';
+	import Footer from './Footer/Footer.svelte';
 	export let content;
 </script>
 
@@ -24,6 +27,9 @@
 <Content5HowToInstall />
 <Content6SignUp />
 <Content6Reviews />
+<Content7WrappingUp />
+<Content8Faq />
+<Footer />
 
 <style>
 	.intro {

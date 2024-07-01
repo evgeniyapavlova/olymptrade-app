@@ -63,7 +63,7 @@
 			<SplideSlide>
 				<div class="review">
 					<div class="review-quote">
-						<img src="{base}/images/svg/quote_left.svg" />
+						<img src="{base}/images/svg/quote_left.svg" alt="Quote" />
 						<i>{item.quote}</i>
 					</div>
 					<div class="review-text">
@@ -112,7 +112,7 @@
 
 	.review-quote {
 		position: relative;
-		padding: 30px 0 20px 0;
+		padding: 34px 0 20px 0;
 		font-size: 20px;
 		line-height: 1.3;
 	}
@@ -120,7 +120,7 @@
 	.review-quote img {
 		position: absolute;
 		left: 0;
-		top: -7px;
+		top: -4px;
 	}
 
 	.review-author {

@@ -7,7 +7,7 @@ export default {
 	deposit: 'https://trkmad.com/2184384/DEPOSITN/IN',
 	pwa: 'https://trkmad.com/2184384/WebAppMac/IN',
 	facebook: 'https://www.facebook.com/olymptradecom/',
-	twitter: 'https://t.me/+mjmgYNZBLQIwMmQ0',
+	tg: 'https://t.me/+mjmgYNZBLQIwMmQ0',
 	youtube: 'https://www.youtube.com/c/OLYMPTRADEGlobal/',
 	windows32: 'https://trkmad.com/2184384/win/IN',
 	windows64: 'https://trkmad.com/2184384/win/IN',

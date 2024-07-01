@@ -9,7 +9,7 @@
 <section>
 	<div class="intro-left">
 		<h1>{@html content.h1}</h1>
-		<a href={links.start} class="button"> {content.start}</a>
+		<a href={links.start} class="button" target="_blank">{content.start}</a>
 		<Rating reviewsText={content.reviews} />
 	</div>
 	<div class="intro-img-wrap">
@@ -31,7 +31,7 @@
 	h1 {
 		font-size: 58px;
 		font-weight: 600;
-		line-height: 1;
+		line-height: 1.1;
 		margin-bottom: 32px;
 	}
 	.intro-img-wrap,

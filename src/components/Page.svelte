@@ -1,6 +1,14 @@
 <script>
 	import Header from './Header/Header.svelte';
 	import Intro from './Intro/Intro.svelte';
+	import Content from './Content/Content.svelte';
+	import Content2 from './Content/Content2.svelte';
+	import Content3IOSAndroid from './Content/Content3IOSAndroid.svelte';
+	import Screenshots from './Content/Screenshots.svelte';
+	import Content4DesktopApps from './Content/Content4DesktopApps.svelte';
+	import Content5HowToInstall from './Content/Content5HowToInstall.svelte';
+	import Content6SignUp from './Content/Content6SignUp.svelte';
+	import Content6Reviews from './Content/Content6Reviews.svelte';
 	export let content;
 </script>
 
@@ -8,6 +16,14 @@
 	<Header content={content.header} />
 	<Intro content={content.intro} />
 </div>
+<Content />
+<Screenshots />
+<Content2 />
+<Content3IOSAndroid />
+<Content4DesktopApps />
+<Content5HowToInstall />
+<Content6SignUp />
+<Content6Reviews />
 
 <style>
 	.intro {

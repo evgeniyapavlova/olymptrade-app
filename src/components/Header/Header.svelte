@@ -7,7 +7,7 @@
 <header>
 	<section>
 		<img class="header-logo" src={logo} alt="Olymp Trade logotype" />
-		<a class="button" href={links.signUp}>
+		<a class="button" href={links.signUp} target="_blank">
 			{content.signUp}
 		</a>
 	</section>

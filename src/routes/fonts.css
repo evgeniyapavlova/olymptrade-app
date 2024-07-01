@@ -51,3 +51,12 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Heebo';
+    font-weight: 400;
+    src: url('/fonts/heebo.woff2') format('woff2'),
+        url('/fonts/heebo.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+}

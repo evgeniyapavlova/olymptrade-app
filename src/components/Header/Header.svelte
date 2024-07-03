@@ -40,5 +40,9 @@
 		.button {
 			display: none;
 		}
+
+		section {
+			justify-content: center;
+		}
 	}
 </style>

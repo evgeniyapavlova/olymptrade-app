@@ -16,6 +16,7 @@
 	section {
 		text-align: center;
 		padding-bottom: 60px;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 	}
 	.sign-up-buttons {
 		display: flex;
@@ -34,9 +35,6 @@
 			flex-direction: column;
 			align-items: center;
 			gap: 20px;
-		}
-		section {
-			padding-bottom: 20px;
 		}
 	}
 </style>

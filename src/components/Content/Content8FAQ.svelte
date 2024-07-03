@@ -49,13 +49,6 @@
 
 <style>
 	section {
-		padding-top: 40px;
 		padding-bottom: 60px;
-	}
-
-	@media screen and (max-width: 768px) {
-		section {
-			padding-top: 20px;
-		}
 	}
 </style>

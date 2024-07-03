@@ -27,3 +27,12 @@
 		choice!
 	</div>
 </section>
+
+<style>
+	section {
+		border-top: 1px solid rgba(0, 0, 0, 0.2);
+		border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+		padding-bottom: 40px;
+		margin-top: 20px;
+	}
+</style>

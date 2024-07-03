@@ -125,8 +125,9 @@
 	.app-store-btns {
 		display: flex;
 		align-items: center;
-		justify-content: center;
+		justify-content: flex-start;
 		gap: 20px;
+		margin-left: -15px;
 	}
 	:global(.app-btn) {
 		width: 180px;
@@ -152,6 +153,8 @@
 
 		.app-store-btns {
 			gap: 0;
+			margin-left: 0;
+			justify-content: center;
 		}
 	}
 

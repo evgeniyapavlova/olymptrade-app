@@ -2,6 +2,8 @@
 	import { base } from '$app/paths';
 	import logo from '$lib/images/logo.svg';
 	import links from '$lib/utils/links';
+
+	let currentYear = new Date().getFullYear();
 </script>
 
 <footer>
@@ -97,7 +99,7 @@
 		</div>
 
 		<div class="footer-bottom">
-			<div class="text">© 2024 olymptrade.app</div>
+			<div class="text">© {currentYear} olymptrade.app</div>
 			<div class="text">Privacy Policy</div>
 
 			<div class="text">Terms and Conditions</div>

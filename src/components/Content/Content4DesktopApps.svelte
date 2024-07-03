@@ -3,7 +3,7 @@
 	import LazyImage from '$comps/LazyImage/LazyImage.svelte';
 </script>
 
-<section>
+<section class="desktop-apps-wrap">
 	<h2>Access Olymp Trade on Your Windows and Mac PCs</h2>
 	<div class="flex-text flex-text-left">
 		<div class="img-wrap-left">
@@ -61,5 +61,34 @@
 <style>
 	:global(.img-wrap-left img) {
 		max-width: 100%;
+	}
+	@media screen and (max-width: 768px) {
+		.text {
+			text-align: center;
+		}
+		ul li {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		ul li::before {
+			content: '\2022';
+			font-size: 28px;
+			line-height: 18px;
+			margin-right: 8px;
+			color: var(--btn-blue);
+		}
+		table {
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.flex-text-left {
+			display: flex;
+			flex-direction: column-reverse;
+		}
+		:global(.desktop-apps-wrap .img-wrap-left .img1) {
+			max-width: 80%;
+		}
 	}
 </style>

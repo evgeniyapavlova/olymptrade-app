@@ -16,6 +16,11 @@
 		width: 100%;
 		margin: 60px 0;
 	}
+	@media screen and (max-width: 768px) {
+		.img-container {
+			margin: 32px 0;
+		}
+	}
 	@media screen and (max-width: 600px) {
 		.img-container {
 			margin: 32px 0;

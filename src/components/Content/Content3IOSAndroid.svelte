@@ -8,7 +8,7 @@
 	let isFirstActive = true;
 </script>
 
-<div class="wrap">
+<div class="wrap android-ios">
 	<section>
 		<h2>Olymp Trade Mobile:<br />for Android and iOS Users</h2>
 		<div class="text" style="text-align: center;">
@@ -44,14 +44,15 @@
 					<div class="text">
 						You can also get the app directly from the App Store on devices running the latest iOS.
 					</div>
-
-					<a href={links.appStore} target="_blank">
-						<img
-							src="{base}/images/app-store-large.webp"
-							alt="Download on the AppStore"
-							class="app-btn-1"
-						/>
-					</a>
+					<div class="text">
+						<a href={links.appStore} target="_blank">
+							<img
+								src="{base}/images/app-store-large.webp"
+								alt="Download on the AppStore"
+								class="app-btn-1"
+							/>
+						</a>
+					</div>
 
 					<div class="text">
 						Now for compatibility details — the iOS app flawlessly supports all models of iPhone,
@@ -77,13 +78,15 @@
 					<div class="text">
 						Alternatively, you can install the Android app via the Google Play Store.
 					</div>
-					<a href={links.appStore} target="_blank">
-						<img
-							src="{base}/images/google-play-large.webp"
-							alt="Get it on Google Play"
-							class="app-btn-1"
-						/>
-					</a>
+					<div class="text">
+						<a href={links.appStore} target="_blank">
+							<img
+								src="{base}/images/google-play-large.webp"
+								alt="Get it on Google Play"
+								class="app-btn-1"
+							/>
+						</a>
+					</div>
 					<div class="text">Rest assured Olymp Trade's APK is:</div>
 					<ul>
 						<li>Compatible with Android 5.0+</li>
@@ -129,6 +132,76 @@
 	:global(.app-btn-1) {
 		width: 220px;
 		margin-left: -14px;
-		margin-bottom: 20px;
+	}
+
+	.flex-text-right > div:first-child {
+		position: relative;
+		z-index: 2;
+	}
+
+	@media screen and (max-width: 1150px) {
+		.flex-text-right > div:first-child {
+			width: 60%;
+		}
+		.flex-text-right > div:last-child {
+			width: 30%;
+		}
+		.img-wrap {
+			position: relative;
+			z-index: 1;
+		}
+
+		:global(.android-ios .img-wrap img) {
+			position: absolute;
+			right: -50px;
+		}
+	}
+
+	@media screen and (max-width: 768px) {
+		.img-wrap {
+			display: none;
+		}
+		.text,
+		h3 {
+			text-align: center;
+		}
+		ul li,
+		ol li {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		ul li::before {
+			content: '\2022';
+			font-size: 28px;
+			line-height: 18px;
+			margin-right: 8px;
+			color: var(--btn-blue);
+		}
+		ol li:nth-child(1)::before {
+			content: '1.';
+		}
+		ol li:nth-child(2)::before {
+			content: '2.';
+		}
+		ol li:nth-child(3)::before {
+			content: '3.';
+		}
+		ol li:nth-child(4)::before {
+			content: '4.';
+		}
+		ol li:nth-child(5)::before {
+			content: '5.';
+		}
+
+		ol li::before {
+			color: var(--btn-blue);
+			margin-right: 4px;
+		}
+
+		:global(.app-btn-1) {
+			margin-left: auto;
+		}
 	}
 </style>

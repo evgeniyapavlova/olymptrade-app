@@ -42,4 +42,10 @@
 		border-bottom: 1px solid var(--dark-bgr);
 		background-color: transparent;
 	}
+
+	@media screen and (max-width: 768px) {
+		.switch-buttons {
+			justify-content: center;
+		}
+	}
 </style>

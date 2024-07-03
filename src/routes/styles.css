@@ -105,7 +105,7 @@ h3 {
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 20px;
-    margin-top: 40px;
+    padding-top: 40px;
 }
 
 .text {
@@ -145,6 +145,38 @@ li::marker {
 .flex-text-right>div:last-child {
     width: 45%;
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+
+    .flex-text-left,
+    .flex-text-right {
+        display: block;
+    }
+
+    .flex-text-left div,
+    .flex-text-right div {
+        width: 100% !important;
+    }
+
+    .text,
+    ul,
+    ol {
+        font-size: 14px;
+    }
+
+    ul,
+    ol {
+        padding-inline-start: 0;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
 }
 
 .app-btn,

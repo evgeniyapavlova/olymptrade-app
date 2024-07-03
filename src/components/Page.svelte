@@ -8,7 +8,7 @@
 	import Content4DesktopApps from './Content/Content4DesktopApps.svelte';
 	import Content5HowToInstall from './Content/Content5HowToInstall.svelte';
 	import Content6SignUp from './Content/Content6SignUp.svelte';
-	import Content6Reviews from './Content/Content6Reviews.svelte';
+	import Content6Reviews from './Content/Content6_1Reviews.svelte';
 	import Content7WrappingUp from './Content/Content7WrappingUp.svelte';
 	import Content8Faq from './Content/Content8FAQ.svelte';
 	import Footer from './Footer/Footer.svelte';
@@ -19,16 +19,24 @@
 	<Header content={content.header} />
 	<Intro content={content.intro} />
 </div>
+
 <Content />
+
 <Screenshots />
+
 <Content2 />
+
 <Content3IOSAndroid />
+
 <Content4DesktopApps />
 <Content5HowToInstall />
+
 <Content6SignUp />
 <Content6Reviews />
 <Content7WrappingUp />
+
 <Content8Faq />
+
 <Footer />
 
 <style>

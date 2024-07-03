@@ -24,4 +24,15 @@
 	.text {
 		margin-bottom: 40px;
 	}
+
+	@media screen and (max-width: 960px) {
+		.sign-up-buttons {
+			flex-direction: column;
+			align-items: center;
+			gap: 20px;
+		}
+		section {
+			padding-bottom: 20px;
+		}
+	}
 </style>

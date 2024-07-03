@@ -14,7 +14,13 @@
 		speed: 800,
 		perPage: 3,
 		perMove: 1,
-		autoplay: true
+		autoplay: true,
+		breakpoints: {
+			1024: {
+				focus: 0,
+				autoWidth: true
+			}
+		}
 	};
 
 	const items = [
@@ -125,7 +131,7 @@
 
 	.review-author {
 		display: flex;
-		align-items: center;
+		align-items: flex-end;
 		justify-content: flex-start;
 		gap: 12px;
 		margin-top: 20px;
@@ -152,5 +158,31 @@
 	.text {
 		text-align: center;
 		margin-bottom: 40px;
+	}
+
+	@media screen and (max-width: 1024px) {
+		.review {
+			width: 320px;
+			padding: 20px;
+		}
+		.review-author {
+			margin-top: 10px;
+		}
+	}
+
+	@media screen and (max-width: 768px) {
+		.review-quote {
+			font-size: 18px;
+			padding-bottom: 10px;
+		}
+		.review-text {
+			font-size: 14px;
+		}
+		.review {
+			width: 250px;
+		}
+		section {
+			padding-bottom: 20px;
+		}
 	}
 </style>

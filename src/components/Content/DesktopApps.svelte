@@ -4,6 +4,7 @@
 	import MacOs from './svg/MacOS.svelte';
 	import Windows from './svg/Windows.svelte';
 	import WebApp from './svg/WebApp.svelte';
+	import { slide } from 'svelte/transition';
 
 	const desktopApps = [
 		{
@@ -23,7 +24,16 @@
 </script>
 
 <div class="desktop-apps-list">
-	{#each desktopApps as desktopApp}
+	{#each desktopApps.slice(0, 2) as desktopApp}
+		<a href={desktopApp.link} alt="{desktopApp.label} download" class="text" target="_blank">
+			<svelte:component this={desktopApp.icon} />
+			{desktopApp.label}
+		</a>
+	{/each}
+</div>
+
+<div class="desktop-apps-list">
+	{#each desktopApps.slice(2, 4) as desktopApp}
 		<a href={desktopApp.link} alt="{desktopApp.label} download" class="text" target="_blank">
 			<svelte:component this={desktopApp.icon} />
 			{desktopApp.label}
@@ -36,7 +46,6 @@
 		display: flex;
 		flex-wrap: wrap;
 		max-width: 360px;
-		margin-top: 40px;
 	}
 
 	.desktop-apps-list > a {
@@ -56,5 +65,17 @@
 	}
 	.desktop-apps-list > a:hover {
 		color: var(--main-green);
+	}
+
+	@media screen and (max-width: 768px) {
+		.desktop-apps-list {
+			max-width: 100%;
+			justify-content: center;
+			gap: 40px;
+		}
+
+		.desktop-apps-list > a {
+			width: auto;
+		}
 	}
 </style>

@@ -1,6 +1,5 @@
 <script>
 	import links from '$lib/utils/links';
-	import LazyImage from '$comps/LazyImage/LazyImage.svelte';
 	import DepositMethods from '$comps/DepositMethods/DepositMethods.svelte';
 </script>
 
@@ -18,7 +17,7 @@
 	</div>
 	<ul>
 		<li>
-			<span><b>Bank cards:</b>Link credit/debit cards for fast and seamless transactions</span>
+			<span><b>Bank cards:</b> Link credit/debit cards for fast and seamless transactions</span>
 		</li>
 		<li><span><b>E-wallets:</b> Use popular digital wallets to easily manage capital</span></li>
 		<li><span><b>Bank transfers:</b> Reliable, direct channel for funding</span></li>
@@ -38,7 +37,7 @@
 
 	ul li {
 		display: flex;
-		align-items: center;
+		align-items: flex-start;
 		justify-content: center;
 	}
 
@@ -48,5 +47,12 @@
 		line-height: 18px;
 		margin-right: 8px;
 		color: var(--btn-blue);
+		margin-top: 4px;
+	}
+
+	@media screen and (max-width: 768px) {
+		section {
+			padding-top: 20px;
+		}
 	}
 </style>

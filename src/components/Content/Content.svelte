@@ -87,7 +87,9 @@
 				<li>No installation needed</li>
 				<li>Cross-device login sync</li>
 			</ul>
-			<a href={links.web} class="button" target="_blank">Go to web</a>
+			<div class="text">
+				<a href={links.web} class="button" target="_blank">Go to web</a>
+			</div>
 		</div>
 		<div>
 			<LazyImage
@@ -132,5 +134,48 @@
 
 	:global(.text-img) {
 		max-width: 100%;
+	}
+
+	@media screen and (max-width: 768px) {
+		section {
+			padding-top: 60px;
+		}
+		.flex-text-left {
+			display: flex;
+			flex-direction: column-reverse;
+		}
+
+		ul li {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		ul li::before {
+			content: '\2022';
+			font-size: 28px;
+			line-height: 18px;
+			margin-right: 8px;
+			color: var(--btn-blue);
+		}
+		.text {
+			text-align: center;
+		}
+		a.button {
+			margin-left: auto;
+			margin-right: auto;
+			display: inline-block;
+		}
+
+		.app-store-btns {
+			gap: 0;
+		}
+	}
+
+	@media screen and (max-width: 400px) {
+		.app-store-btns {
+			display: block;
+			text-align: center;
+		}
 	}
 </style>

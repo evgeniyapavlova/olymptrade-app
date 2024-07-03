@@ -26,9 +26,9 @@
 				what you get:
 			</div>
 			<ul>
-				<li>Trade on the go wherever you are</li>
-				<li>The intuitive interface makes navigation super smooth</li>
-				<li>Real-time price alerts keep you informed</li>
+				<li><span>Trade on the go wherever you are</span></li>
+				<li><span>The intuitive interface makes navigation super smooth</span></li>
+				<li><span>Real-time price alerts keep you informed</span></li>
 			</ul>
 			<div class="app-store-btns">
 				<a href={links.appStore} target="_blank">
@@ -66,9 +66,9 @@
 			</div>
 
 			<ul>
-				<li>Faster performance</li>
-				<li>Extra tools like Expert Advisors</li>
-				<li>Multi-screen support</li>
+				<li><span>Faster performance</span></li>
+				<li><span>Extra tools like Expert Advisors</span></li>
+				<li><span>Multi-screen support</span></li>
 			</ul>
 
 			<DesktopApps />
@@ -83,9 +83,9 @@
 			</div>
 
 			<ul>
-				<li>Convenient access anywhere</li>
-				<li>No installation needed</li>
-				<li>Cross-device login sync</li>
+				<li><span>Convenient access anywhere</span></li>
+				<li><span>No installation needed</span></li>
+				<li><span>Cross-device login sync</span></li>
 			</ul>
 			<div class="text">
 				<a href={links.web} class="button" target="_blank">Go to web</a>
@@ -105,9 +105,9 @@
 	</div>
 
 	<ul>
-		<li>Learn risk-free</li>
-		<li>Test strategies</li>
-		<li>Understand analyses</li>
+		<li><span>Learn risk-free</span></li>
+		<li><span>Test strategies</span></li>
+		<li><span>Understand analyses</span></li>
 	</ul>
 
 	<div class="text">

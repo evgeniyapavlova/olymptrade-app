@@ -20,10 +20,10 @@
 				{#if isFirstActive}
 					<div in:fade={{ duration: 500 }}>
 						<ol style="margin-top: 40px;">
-							<li>Download the Olymp Trade PC app</li>
-							<li>Run the EXE installer</li>
-							<li>Follow the prompts</li>
-							<li>Launch the app & login</li>
+							<li><span>Download the Olymp Trade PC app</span></li>
+							<li><span>Run the EXE installer</span></li>
+							<li><span>Follow the prompts</span></li>
+							<li><span>Launch the app & login</span></li>
 						</ol>
 
 						<div class="download-buttons">
@@ -34,10 +34,10 @@
 					</div>
 				{:else}<div in:fade={{ duration: 500 }}>
 						<ol style="margin-top: 40px;">
-							<li>Get DMG file</li>
-							<li>Open and run the installer</li>
-							<li>Drag & drop the app into Applications</li>
-							<li>Launch the app to register or log in</li>
+							<li><span>Get DMG file</span></li>
+							<li><span>Open and run the installer</span></li>
+							<li><span>Drag & drop the app into Applications</span></li>
+							<li><span>Launch the app to register or log in</span></li>
 						</ol>
 						<div class="download-buttons">
 							<a href={links.macOS}>For MacOS</a>

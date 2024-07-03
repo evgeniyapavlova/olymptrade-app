@@ -41,6 +41,7 @@
 	.arrow {
 		width: 30px;
 		height: 30px;
+		cursor: pointer;
 	}
 
 	.arrow:after {
@@ -56,16 +57,18 @@
 	}
 
 	.arrow.item-open::after {
-		transform: translate(4px, 6px) rotate(0);
-		border-right: none;
+		transform: translate(4px, 0) rotate(0);
+		height: 1px;
 	}
 
 	@media screen and (max-width: 768px) {
 		.item-label {
 			font-size: 16px;
+			gap: 4px;
 		}
 		.answer {
 			font-size: 14px;
+			margin-top: 12px;
 		}
 	}
 </style>

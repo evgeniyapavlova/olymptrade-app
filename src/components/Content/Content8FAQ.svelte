@@ -42,8 +42,9 @@
 
 <section>
 	<h2>Olymp Trade Desktop Apps FAQ</h2>
-	{#each items as item}
-		<Accordion {item} />
+	{#each items as item, idx}
+		{#if idx === 0}
+			<Accordion open {item} />{:else}<Accordion {item} />{/if}
 	{/each}
 </section>
 

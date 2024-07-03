@@ -134,11 +134,10 @@
 
 	.review-author {
 		display: flex;
-		align-items: flex-end;
+		align-items: center;
 		justify-content: flex-start;
 		gap: 12px;
 		margin-top: 20px;
-		flex-grow: 1;
 	}
 
 	.review-avatar {
@@ -156,6 +155,7 @@
 	.review-text {
 		color: rgba(0, 0, 0, 0.7);
 		font-size: 16px;
+		flex-grow: 1;
 	}
 
 	.text {

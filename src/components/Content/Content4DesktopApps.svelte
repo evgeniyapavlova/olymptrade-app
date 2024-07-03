@@ -63,22 +63,6 @@
 		max-width: 100%;
 	}
 	@media screen and (max-width: 768px) {
-		.text {
-			text-align: center;
-		}
-		ul li {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-		}
-
-		ul li::before {
-			content: '\2022';
-			font-size: 28px;
-			line-height: 18px;
-			margin-right: 8px;
-			color: var(--btn-blue);
-		}
 		table {
 			margin-left: auto;
 			margin-right: auto;

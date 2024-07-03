@@ -27,26 +27,3 @@
 		choice!
 	</div>
 </section>
-
-<style>
-	@media screen and (max-width: 768px) {
-		.text {
-			text-align: center;
-		}
-		ul li {
-			display: flex;
-			align-items: flex-start;
-			justify-content: center;
-			text-align: center;
-		}
-
-		ul li::before {
-			content: '\2022';
-			font-size: 28px;
-			line-height: 18px;
-			margin-right: 8px;
-			color: var(--btn-blue);
-			margin-top: 4px;
-		}
-	}
-</style>

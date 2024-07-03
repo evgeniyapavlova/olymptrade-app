@@ -64,29 +64,31 @@
 		applications:
 	</div>
 
-	<Splide aria-label="Users reviews" {options}>
-		{#each items as item}
-			<SplideSlide>
-				<div class="review">
-					<div class="review-quote">
-						<img src="{base}/images/svg/quote_left.svg" alt="Quote" />
-						<i>{item.quote}</i>
-					</div>
-					<div class="review-text">
-						{item.text}
-					</div>
-					<div class="review-author">
-						<div class="review-avatar" style="background-color: #{generateRandomColor()}">
-							{item.author[0]}
+	<div class="slider-wrap">
+		<Splide aria-label="Users reviews" {options}>
+			{#each items as item}
+				<SplideSlide>
+					<div class="review">
+						<div class="review-quote">
+							<img src="{base}/images/svg/quote_left.svg" alt="Quote" />
+							<i>{item.quote}</i>
 						</div>
-						<div class="review-name">
-							{item.author}
+						<div class="review-text">
+							{item.text}
+						</div>
+						<div class="review-author">
+							<div class="review-avatar" style="background-color: #{generateRandomColor()}">
+								{item.author[0]}
+							</div>
+							<div class="review-name">
+								{item.author}
+							</div>
 						</div>
 					</div>
-				</div>
-			</SplideSlide>
-		{/each}
-	</Splide>
+				</SplideSlide>
+			{/each}
+		</Splide>
+	</div>
 </section>
 
 <style>
@@ -105,11 +107,12 @@
 	.review {
 		padding: 24px;
 		background-color: white;
-		border: 1px solid rgba(0, 0, 0, 0.2);
+		border: 1px solid rgba(0, 0, 0, 0.1);
 		border-radius: 10px;
 		margin-top: 10px;
 		margin-bottom: 10px;
 		height: calc(100% - 20px);
+		background-color: rgba(0, 0, 0, 0.02);
 	}
 
 	section {
@@ -183,6 +186,13 @@
 		}
 		section {
 			padding-bottom: 20px;
+		}
+	}
+
+	@media screen and (max-width: 600px) {
+		.slider-wrap {
+			margin-right: -24px;
+			width: calc(100vw - 24px);
 		}
 	}
 </style>

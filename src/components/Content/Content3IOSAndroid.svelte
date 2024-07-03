@@ -24,20 +24,22 @@
 					<div class="text">Olymp Trade's iOS app features:</div>
 
 					<ul>
-						<li>Real-time pricing/news</li>
-						<li>Intuitive navigation</li>
-						<li>In-depth charts and analysis</li>
-						<li>Robust account privacy</li>
+						<li><span>Real-time pricing/news</span></li>
+						<li><span>Intuitive navigation</span></li>
+						<li><span>In-depth charts and analysis</span></li>
+						<li><span>Robust account privacy</span></li>
 					</ul>
 
 					<div class="text">Here's how to install the app on your iPhone:</div>
 
 					<ul>
-						<li>Visit Olymp Trade's website from your iPhone</li>
-						<li>Click 'Get' to start the installation</li>
-						<li>Find the new Olymp Trade icon and open the app</li>
+						<li><span>Visit Olymp Trade's website from your iPhone</span></li>
+						<li><span>Click 'Get' to start the installation</span></li>
+						<li><span>Find the new Olymp Trade icon and open the app</span></li>
 						<li>
-							Sign up if you’re new to Olymp Trade; otherwise, login with your email and password
+							<span
+								>Sign up if you’re new to Olymp Trade; otherwise, login with your email and password</span
+							>
 						</li>
 					</ul>
 
@@ -69,11 +71,11 @@
 					<h3>Get the Android APK for Your Gadgets</h3>
 					<div class="text">Here are the steps to easily install the Android APK file:</div>
 					<ol>
-						<li>Download Olymptrade APK on your device</li>
-						<li>Enable installation from unknown sources</li>
-						<li>Install the APK file</li>
-						<li>Launch the Olymp Trade app</li>
-						<li>Register an account to start trading</li>
+						<li><span>Download Olymptrade APK on your device</span></li>
+						<li><span>Enable installation from unknown sources</span></li>
+						<li><span>Install the APK file</span></li>
+						<li><span>Launch the Olymp Trade app</span></li>
+						<li><span>Register an account to start trading</span></li>
 					</ol>
 					<div class="text">
 						Alternatively, you can install the Android app via the Google Play Store.
@@ -89,9 +91,9 @@
 					</div>
 					<div class="text">Rest assured Olymp Trade's APK is:</div>
 					<ul>
-						<li>Compatible with Android 5.0+</li>
-						<li>Verified safe for Indian users</li>
-						<li>Virus-free — confirmed by Norton and McAfee</li>
+						<li><span>Compatible with Android 5.0+</span></li>
+						<li><span>Verified safe for Indian users</span></li>
+						<li><span>Virus-free — confirmed by Norton and McAfee</span></li>
 					</ul>
 				</div>
 			{/if}

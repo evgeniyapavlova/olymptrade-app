@@ -14,11 +14,17 @@
 	<div class="text"><b>Key takeaways:</b></div>
 
 	<ul>
-		<li>Olymp Trade offers free Android and iOS mobile apps to trade on the go</li>
-		<li>If you prefer the desktop experience, you can use Olymp Trade’s Windows and Mac apps</li>
-		<li>The web platform allows convenient access anywhere</li>
-		<li>Free practice account charged with $10,000 to test the platform without risks</li>
-		<li>Quick and easy sign-up process</li>
+		<li><span>Olymp Trade offers free Android and iOS mobile apps to trade on the go</span></li>
+		<li>
+			<span
+				>If you prefer the desktop experience, you can use Olymp Trade’s Windows and Mac apps</span
+			>
+		</li>
+		<li><span>The web platform allows convenient access anywhere</span></li>
+		<li>
+			<span>Free practice account charged with $10,000 to test the platform without risks</span>
+		</li>
+		<li><span>Quick and easy sign-up process</span></li>
 	</ul>
 
 	<div class="text">

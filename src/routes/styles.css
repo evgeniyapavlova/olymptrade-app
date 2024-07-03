@@ -119,11 +119,7 @@ ol,
     line-height: 1.7;
 }
 
-ul,
-ol {
-    margin-bottom: 20px;
-    padding-inline-start: 40px;
-}
+
 
 li::marker {
     color: var(--btn-blue);
@@ -147,7 +143,70 @@ li::marker {
     text-align: center;
 }
 
+ul:not(.splide__list),
+ol {
+    margin-bottom: 20px;
+    padding-inline-start: 28px;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+ul:not(.splide__list) li {
+    padding: 0 12px;
+}
+
+li span {
+    position: relative;
+}
+
+ul:not(.splide__list) li span::before {
+    content: '\2022';
+    font-size: 28px;
+    line-height: 18px;
+    color: var(--btn-blue);
+    position: absolute;
+    left: -15px;
+    top: 5px;
+}
+
+ol li:nth-child(1) span::before {
+    content: '1.';
+}
+
+ol li:nth-child(2) span::before {
+    content: '2.';
+}
+
+ol li:nth-child(3) span::before {
+    content: '3.';
+}
+
+ol li:nth-child(4) span::before {
+    content: '4.';
+}
+
+ol li:nth-child(5) span::before {
+    content: '5.';
+}
+
+ol li span::before {
+    color: var(--btn-blue);
+    margin-right: 4px;
+}
+
 @media screen and (max-width: 768px) {
+
+    ul:not(.splide__list) li,
+    ol li {
+        text-align: center;
+    }
+
+    ul:not(.splide__list) li span::before {
+        top: 3px;
+    }
 
     .flex-text-left,
     .flex-text-right {
@@ -179,6 +238,8 @@ li::marker {
         font-size: 20px;
     }
 
+
+    /* 
     ul:not(.splide__list) li,
     ol li {
         display: flex;
@@ -196,30 +257,7 @@ li::marker {
         margin-top: 4px;
     }
 
-    ol li:nth-child(1)::before {
-        content: '1.';
-    }
-
-    ol li:nth-child(2)::before {
-        content: '2.';
-    }
-
-    ol li:nth-child(3)::before {
-        content: '3.';
-    }
-
-    ol li:nth-child(4)::before {
-        content: '4.';
-    }
-
-    ol li:nth-child(5)::before {
-        content: '5.';
-    }
-
-    ol li::before {
-        color: var(--btn-blue);
-        margin-right: 4px;
-    }
+ */
 
     .text,
     h3 {

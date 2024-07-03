@@ -15,11 +15,11 @@
 			</div>
 
 			<ul>
-				<li>Better performance</li>
-				<li>More tools</li>
-				<li>Multi-screen support</li>
-				<li>Keyboard shortcuts</li>
-				<li>Price alerts</li>
+				<li><span>Better performance</span></li>
+				<li><span>More tools</span></li>
+				<li><span>Multi-screen support</span></li>
+				<li><span>Keyboard shortcuts</span></li>
+				<li><span>Price alerts</span></li>
 			</ul>
 
 			<div class="text">Below are the minimum system requirements:</div>

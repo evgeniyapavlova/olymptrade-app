@@ -161,44 +161,6 @@
 		.img-wrap {
 			display: none;
 		}
-		.text,
-		h3 {
-			text-align: center;
-		}
-		ul li,
-		ol li {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-		}
-
-		ul li::before {
-			content: '\2022';
-			font-size: 28px;
-			line-height: 18px;
-			margin-right: 8px;
-			color: var(--btn-blue);
-		}
-		ol li:nth-child(1)::before {
-			content: '1.';
-		}
-		ol li:nth-child(2)::before {
-			content: '2.';
-		}
-		ol li:nth-child(3)::before {
-			content: '3.';
-		}
-		ol li:nth-child(4)::before {
-			content: '4.';
-		}
-		ol li:nth-child(5)::before {
-			content: '5.';
-		}
-
-		ol li::before {
-			color: var(--btn-blue);
-			margin-right: 4px;
-		}
 
 		:global(.app-btn-1) {
 			margin-left: auto;

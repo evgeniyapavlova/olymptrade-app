@@ -17,7 +17,13 @@
 		breakpoints: {
 			1024: {
 				focus: 0,
-				autoWidth: true
+				autoWidth: true,
+				perMove: 1
+			},
+			600: {
+				focus: 'center',
+				autoWidth: true,
+				gap: '10px'
 			}
 		}
 	};
@@ -55,6 +61,14 @@
 		}
 		img {
 			height: 60px;
+		}
+	}
+
+	@media screen and (max-width: 600px) {
+		div {
+			margin-left: -24px;
+			margin-right: -24px;
+			width: 100wv;
 		}
 	}
 </style>

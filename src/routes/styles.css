@@ -170,12 +170,65 @@ li::marker {
         padding-inline-start: 0;
     }
 
+
     h2 {
         font-size: 25px;
     }
 
     h3 {
         font-size: 20px;
+    }
+
+    ul:not(.splide__list) li,
+    ol li {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        text-align: center;
+    }
+
+    ul:not(.splide__list) li::before {
+        content: '\2022';
+        font-size: 28px;
+        line-height: 18px;
+        margin-right: 8px;
+        color: var(--btn-blue);
+        margin-top: 4px;
+    }
+
+    ol li:nth-child(1)::before {
+        content: '1.';
+    }
+
+    ol li:nth-child(2)::before {
+        content: '2.';
+    }
+
+    ol li:nth-child(3)::before {
+        content: '3.';
+    }
+
+    ol li:nth-child(4)::before {
+        content: '4.';
+    }
+
+    ol li:nth-child(5)::before {
+        content: '5.';
+    }
+
+    ol li::before {
+        color: var(--btn-blue);
+        margin-right: 4px;
+    }
+
+    .text,
+    h3 {
+        text-align: center;
+    }
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 

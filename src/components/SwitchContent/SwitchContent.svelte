@@ -34,7 +34,6 @@
 		margin-bottom: -1px;
 		margin-right: 6px;
 		cursor: pointer;
-		/* transition: border 0.2s ease-out; */
 		transition: background-color 0.2s ease-out;
 		background-color: rgba(255, 255, 255, 0.1);
 	}

@@ -35,21 +35,6 @@
 		padding-bottom: 60px;
 	}
 
-	ul li {
-		display: flex;
-		align-items: flex-start;
-		justify-content: center;
-	}
-
-	ul li::before {
-		content: '\2022';
-		font-size: 28px;
-		line-height: 18px;
-		margin-right: 8px;
-		color: var(--btn-blue);
-		margin-top: 4px;
-	}
-
 	@media screen and (max-width: 768px) {
 		section {
 			padding-top: 20px;

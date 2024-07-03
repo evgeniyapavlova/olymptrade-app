@@ -224,7 +224,7 @@ ol li span::before {
         font-size: 14px;
     }
 
-    ul,
+    ul:not(.splide__list),
     ol {
         padding-inline-start: 0;
     }
@@ -237,27 +237,6 @@ ol li span::before {
     h3 {
         font-size: 20px;
     }
-
-
-    /* 
-    ul:not(.splide__list) li,
-    ol li {
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
-        text-align: center;
-    }
-
-    ul:not(.splide__list) li::before {
-        content: '\2022';
-        font-size: 28px;
-        line-height: 18px;
-        margin-right: 8px;
-        color: var(--btn-blue);
-        margin-top: 4px;
-    }
-
- */
 
     .text,
     h3 {
